@@ -27,7 +27,7 @@ spec:
        app: mysql
    spec:
      containers:
-     - image: kenotsolutions:mysql:5.6
+     - image: kenotsolutions:mysql:5.7
        name: mysql
        env:
          # Use secret in real usage
